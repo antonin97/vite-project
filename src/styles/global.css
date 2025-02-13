@@ -64,6 +64,8 @@ main {
 }
 
 h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700; /* Bold */
   font-size: 2.5rem;
   color: #000000; /* Bright magenta */
   margin-bottom: 20px;
