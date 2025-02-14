@@ -1,0 +1,66 @@
+[
+    {
+      "key": 1,  
+      "image": "./images/mr-whiskerson.png",
+      "altImage": "Photo of Mr. Whiskerson",
+      "name": "Mr. Whiskerson",
+      "phone": {
+        "icon": "./images/phone-icon.png",
+        "altPhoneIcon": "phone icon",
+        "number": "(212) 555-1234"
+      },
+      "email": {
+        "icon": "./images/mail-icon.png",
+        "altMailIcon": "mail icon",
+        "address": "mr.whiskaz@catnap.meow"
+      }
+    },
+    {
+      "key": 2,  
+      "image": "./images/fluffykins.png",
+      "altImage": "Photo of Fluffykins",
+      "name": "Fluffykins",
+      "phone": {
+        "icon": "./images/phone-icon.png",
+        "altPhoneIcon": "phone icon",
+        "number": "(212) 555-2345"
+      },
+      "email": {
+        "icon": "./images/mail-icon.png",
+        "altMailIcon": "mail icon",
+        "address": "fluff@me.com"
+      }
+    },
+    {
+      "key": 3,  
+      "image": "./images/felix.png",
+      "altImage": "Photo of Felix",
+      "name": "Felix",
+      "phone": {
+        "icon": "./images/phone-icon.png",
+        "altPhoneIcon": "phone icon",
+        "number": "(212) 555-4567"
+      },
+      "email": {
+        "icon": "./images/mail-icon.png",
+        "altMailIcon": "mail icon",
+        "address": "thecat@hotmail.com"
+      }
+    },
+    {
+      "key": 4,  
+      "image": "./images/pumpkin.png",
+      "altImage": "Photo of Pumpkin",
+      "name": "Pumpkin",
+      "phone": {
+        "icon": "./images/phone-icon.png",
+        "altPhoneIcon": "phone icon",
+        "number": "(0800) CAT KING"
+      },
+      "email": {
+        "icon": "./images/mail-icon.png",
+        "altMailIcon": "mail icon",
+        "address": "pumpkin@scrimba.com"
+      }
+    }
+  ]

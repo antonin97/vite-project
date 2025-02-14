@@ -13,46 +13,6 @@ body {
   color: #333;
 }
 
-/* Header Styles */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #000000; /* Bright magenta */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-}
-
-.my-ul {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-}
-
-.nav-item {
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.nav-item:hover {
-  color: #000000; /* Lighter magenta */
-}
 
 /* Main Content Styles */
 main {
@@ -113,4 +73,76 @@ footer small {
   h1 {
       font-size: 2rem;
   }
+}
+.header {
+  display: flex; /* Use Flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  background-color: orange; /* Set background color to orange */
+  padding: 10px; /* Add some padding */
+}
+
+.globe-img {
+  margin-right: 10px; /* Add some space between the image and text */
+  width: 50px;
+}
+
+.header-text {
+  color: black; /* Set text color to black */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  font-weight: bold; /* Make text bold */
+}
+
+.grafik-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grafik-location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.grafik-pin {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.grafik-map-link {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.grafik-map-link:hover {
+  text-decoration: underline;
+}
+
+.grafik-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.grafik-date {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grafik-description {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  text-align: justify;
 }

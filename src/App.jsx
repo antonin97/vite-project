@@ -1,12 +1,12 @@
-import Navbar from './components/Navbar'
-import Main from "./components/Main"
-
+import Navbar from './components/Header'
+import Grafik from './components/Grafik'
+import data from './assets/destinations.json'; // Import the JSON file
 
 export default function App() {
     return (
         <>
             <Navbar />
-            <Main />
+            {data.map((site) => <Grafik site={site} />)}
         </>
     )
 }
