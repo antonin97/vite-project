@@ -25,6 +25,7 @@ body {
   font-family: Inter, sans-serif;
 }
 
+<<<<<<< HEAD
 nav > img {
   width: 40px;
   margin-right: 10px;
@@ -39,4 +40,138 @@ nav > span {
 .header-container {
   height: 40px;
   background-color: orange;
+=======
+
+/* Main Content Styles */
+main {
+  padding: 40px 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 2.5rem;
+  color: #000000; /* Bright magenta */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ol {
+  padding-left: 40px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+ol li {
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #868686; /* Bright magenta */
+  color: #fff;
+  margin-top: 40px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer small {
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+  }
+
+  .my-ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+}
+.header {
+  display: flex; /* Use Flexbox */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  background-color: orange; /* Set background color to orange */
+  padding: 10px; /* Add some padding */
+}
+
+.globe-img {
+  margin-right: 10px; /* Add some space between the image and text */
+  width: 50px;
+}
+
+.header-text {
+  color: black; /* Set text color to black */
+  font-size: 1.2rem; /* Adjust font size as needed */
+  font-weight: bold; /* Make text bold */
+}
+
+.grafik-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grafik-location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.grafik-pin {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.grafik-map-link {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.grafik-map-link:hover {
+  text-decoration: underline;
+}
+
+.grafik-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.grafik-date {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grafik-description {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  text-align: justify;
+>>>>>>> 681d1dee355a799e74d360542ddeed59e198dc45
 }
