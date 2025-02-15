@@ -25,7 +25,7 @@ body {
   font-family: Inter, sans-serif;
 }
 
-<<<<<<< HEAD
+
 nav > img {
   width: 40px;
   margin-right: 10px;
@@ -40,7 +40,7 @@ nav > span {
 .header-container {
   height: 40px;
   background-color: orange;
-=======
+}
 
 /* Main Content Styles */
 main {
@@ -173,5 +173,4 @@ footer small {
   color: #444;
   line-height: 1.6;
   text-align: justify;
->>>>>>> 681d1dee355a799e74d360542ddeed59e198dc45
 }

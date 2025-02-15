@@ -1,6 +1,6 @@
 
-export default function Grafik({site}) {
-  const {name, phone, email} = site
+export default function Grafik(site) {
+  const {name, phone } = site
   return (
     <div className="grafik-container">
       <div className="grafik-location">
